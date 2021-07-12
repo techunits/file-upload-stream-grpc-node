@@ -1,0 +1,28 @@
+{
+  "name": "file-upload-stream-grpc-node",
+  "version": "1.0.0",
+  "description": "How to upload file to gRPC server via streaming with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://techunits@github.com/techunits/file-upload-stream-grpc-node.git"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "Team Techunits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techunits/file-upload-stream-grpc-node/issues"
+  },
+  "homepage": "https://github.com/techunits/file-upload-stream-grpc-node#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.0.5",
+    "@grpc/proto-loader": "^0.5.4",
+    "elogger": "^1.0.8",
+    "uuid": "^8.2.0"
+  }
+}
